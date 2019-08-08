@@ -197,6 +197,7 @@ fns = {
 	'atan': 'Math.atan',
 	'acos': 'Math.acos',
 	'asin': 'Math.asin',
+	'sign': 'Math.sign',
 }
 
 constants = {
