@@ -201,7 +201,7 @@ function Equation(eqn, type, win){
 	this.exp_show=$("<input type='text' class='exp-show' value='1'/>")
 		.appendTo(this.explorer)
 		.change(function(){
-			e.set_m(parseInt($(e.exp_show).val(), 10))	
+			e.set_m(parseFloat($(e.exp_show).val(), 10))	
 		})
 	
 	this.exp_up=$("<div title='Increase m' class='btn exp-up'>&nbsp;</div>").appendTo(this.explorer)
